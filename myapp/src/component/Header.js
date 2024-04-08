@@ -2,6 +2,7 @@ import './Header.css'
 import Login from './Login'
 
 export default function Header() {
+    let loginvar=true;
   return (
     <div>
         <nav  className="navbar navbar-expand-lg bg-body-tertiary">
@@ -40,7 +41,7 @@ export default function Header() {
     </div>
   </div>
 </nav>
-<Login/>
+ {loginvar && <Login/>}
     </div>
   )
 }
