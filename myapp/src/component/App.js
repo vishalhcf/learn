@@ -4,16 +4,14 @@ import TopSection from "./TopSection";
 import Counter from "./Counter";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import CardData from "./CardData";
-export default function App(){
-    return(
-        <div>
-            <Header/>
-            <TopSection/>
-            <CardData/>
-            <br></br>
-           
-            <Counter/>
-            
-        </div>
+import UseEffect from "./UseEffect";
+export default function App() {
+    return (
+      <div className='Appcomponent'>
+        {/* <Header />
+        <Topsection/>
+        <CardData/> */}
+        <UseEffect/>
+      </div>
     )
-}
+  }

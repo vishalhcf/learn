@@ -1,0 +1,14 @@
+{
+    "products":[
+        {"id":"1","pname":"Mobile B","price":"5000","instock":"true"},
+        {"id":"2","pname":"Mobile C","price":"7000","instock":"true"},
+        {"id":"3","pname":"Mobile D","price":"8000","instock":"true"}
+       
+
+
+    ],
+    "comments":[
+        {"id":"1","comment":"find it useful"}
+    ]
+
+}
